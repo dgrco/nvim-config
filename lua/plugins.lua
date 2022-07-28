@@ -16,7 +16,10 @@ return require('packer').startup(function(use)
   use 'ms-jpq/coq.artifacts'
 
   -- syntax highlighting
-  use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+  use { 
+    'nvim-treesitter/nvim-treesitter',
+    run = ':TSUpdate',
+  }
 
   -- icons
   use 'kyazdani42/nvim-web-devicons'
